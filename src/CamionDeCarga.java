@@ -1,3 +1,10 @@
+/**
+ * Esta clase representa a un vehículo de tipo camión de carga, el cual mantiene un
+ * patrón de movimiento y está monitoreado por GPS.
+ ** @author milagros-cabrera
+ */
+
+
 public class CamionDeCarga extends Vehiculo implements IConectable{
     @Override
     public void patronMovimiento(){
