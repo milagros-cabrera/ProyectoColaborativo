@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CentroControl {
-    private List<Vehiculo> ListaDeVehiculos;
+    private List<Vehiculo> listaDeVehiculos;
 
     public CentroControl(){
         this.listaDeVehiculos = new ArrayList<>();
@@ -15,8 +15,7 @@ public class CentroControl {
     public void monitorearFlota(){
         for(Vehiculo v:listaDeVehiculos){
             v.patronMovimiento();
-            if (v instanceof IConectable) {
-                IConectable unidadGps = (IConectable) v;
+            if (v instanceof IConectable unidadGps) {
                 unidadGps.sincronizarGPS();
             }
         }
