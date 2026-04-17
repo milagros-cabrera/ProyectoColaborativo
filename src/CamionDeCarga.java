@@ -5,7 +5,7 @@
  */
 public class CamionDeCarga extends Vehiculo implements IConectable{
 
-    public CamionCarga(int id){
+    public CamionDeCarga(int id){
         super(id);
     }
     
