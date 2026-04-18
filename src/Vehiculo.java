@@ -6,10 +6,15 @@
 
 public abstract class Vehiculo {
     private int id;
+
+    public Vehiculo(int id) {
+        this.id = id;
+    }
+    
     public int getId(){
         return id;
     }
-
+    
     //Metodo abstracto que define cómo se mueve el vehículo.
     public abstract void patronMovimiento();
 }
