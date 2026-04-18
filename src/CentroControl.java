@@ -3,6 +3,7 @@ import java.util.List;
 /**
  * La clase CentroControl se encarga de gestionar y monitorear una flota de vehículos.
  * Permite registrar nuevas unidades y ejecutar un monitoreo general sobre cada una.
+ ** @author ceciliaromero-
  */
 public class CentroControl {
     private List<Vehiculo> listaDeVehiculos;
