@@ -1,6 +1,7 @@
 /**
  * La clase TransportePublico representa un tipo de vehículo destinado
  * al traslado de pasajeros, heredando las características generales de Vehiculo.
+ ** @author ceciliaromero-
  */
 public class TransportePublico extends Vehiculo{
     /**
